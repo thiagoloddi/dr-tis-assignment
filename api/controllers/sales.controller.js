@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import _ from 'lodash';
 
 export const create = async body => {
   const Sales = mongoose.model('sales');

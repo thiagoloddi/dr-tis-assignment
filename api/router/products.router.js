@@ -1,6 +1,5 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import * as products from '../controllers/products.controller';
 import { handle } from './handler';
 
 const createRouter = () => {
