@@ -5,7 +5,7 @@ This is a RESTful API with CRUD operation for `products` and `sales` collections
 - [Environment Variables](#environment-variables)
 - [Run with docker-compose](#run-with-docker-compose)
 - [Run mannually](#run-manually-(development))
-
+- [Scripts](#scripts)
 # Environment Variables
 - **NODE_ENV** - defaults to `local`
 - **PORT** - defaults to `8080`
@@ -40,4 +40,10 @@ sudo mongod # mac
 npm start
 # or, for watch mode:
 npm run dev
+```
+
+# Scripts
+Run this command to run a script that populates the database with 10 fake products:
+```bash
+npm run populate
 ```
