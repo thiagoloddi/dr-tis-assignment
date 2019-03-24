@@ -12,7 +12,7 @@ mongodb()
     await Products.deleteMany({});
     await Sales.deleteMany({});
     
-    for(let i = 0; i < 20; i++) {
+    for(let i = 0; i < 10; i++) {
       await new Products({
         name:  faker.commerce.productName(),
         price: (Math.random() * 1E4).toFixed(2),
