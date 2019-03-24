@@ -34,7 +34,7 @@ npm install
 sudo service mongod start # linux
 sudo mongod # mac
 ```
-Alternatively, you can export a environment variable with you own remote database:
+Alternatively, you can export a environment variable with you own remote database url:
 ```bash
 export MONGO_URL="<your_database_url>"
 ```
